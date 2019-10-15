@@ -6,7 +6,7 @@ echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" 
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
-# sudo apt-get install mongodb-org=3.2.18 -y
+# sudo apt-get install mongodb-org=3.2.20 -y
 sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20 --allow-unauthenticated
 
 sudo rm /etc/mongod.conf
